@@ -1,0 +1,8 @@
+admin@gmail.com
+123456
+vendedor@gmail.com
+123456
+almacenero@gmail.com  
+
+
+por ahora estan estos roles disponibles los otros en futuras actualizaciones :)
