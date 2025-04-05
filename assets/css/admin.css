@@ -1,0 +1,107 @@
+/* Estilos para la vista del administrador */
+.products-table, .users-table, .categories-table, .logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.products-table th, .products-table td,
+.users-table th, .users-table td,
+.categories-table th, .categories-table td,
+.logs-table th, .logs-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.products-table th, .users-table th,
+.categories-table th, .logs-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.products-table tbody tr:nth-child(even),
+.users-table tbody tr:nth-child(even),
+.categories-table tbody tr:nth-child(even),
+.logs-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.products-table input[type="text"],
+.products-table input[type="number"],
+.products-table select,
+.categories-table input[type="text"],
+.categories-table textarea,
+.users-table select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.products-table textarea,
+.categories-table textarea {
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+#agregarProductoForm,
+#agregarCategoriaForm {
+  margin-bottom: 20px;
+}
+
+#agregarProductoForm label,
+#agregarCategoriaForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#agregarProductoForm input[type="text"],
+#agregarProductoForm input[type="number"],
+#agregarProductoForm select,
+#agregarProductoForm textarea,
+#agregarCategoriaForm input[type="text"],
+#agregarCategoriaForm textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+#agregarProductoForm textarea,
+#agregarCategoriaForm textarea {
+  height: 80px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
